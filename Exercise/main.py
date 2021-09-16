@@ -1,12 +1,9 @@
 # Individual Github Exercise
-from feature_2 import*
 
-# Prints text asking for number of user input
-user_str = input("Enter a string: ")
+# number of elements
+n = int(input("Enter number of elements : "))
 
-words = [word.lower() for word in user_str.split()]
-sort_string(words)
+# Below line read inputs from user using map() function
+a = list(map(int, input("\nEnter the numbers : ").strip().split()))[:n]
 
-print("The sorted words are:")
-for word in words:
-    print(word)
+print("\nList is - ", a)
