@@ -1,7 +1,19 @@
+# Individual Github Exercise
+
+# Function that sorts words form a string provided by the user alphabetically
+def sort_string(user_words):
+
+    # sort the list
+    user_words.sort()
+    return user_words
+
+
 # Prints text asking for number of user input
-n = int(input("Enter number of elements : "))
+user_str = input("Enter a string: ")
 
-# Read inputs from user using map() function
-user_input = list(map(int, input("\nEnter the numbers : ").strip().split()))[:n]
+words = [word.lower() for word in user_str.split()]
+sort_string(words)
 
-print("\nList is - ", user_input)
+print("The sorted words are:")
+for word in words:
+    print(word)
