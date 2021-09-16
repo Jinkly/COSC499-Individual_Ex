@@ -1,10 +1,5 @@
 # Individual Github Exercise
-
-# Function that sorts integers
-def sort_int(user_list):
-    user_list.sort()
-    return user_list
-
+from feature_1 import*
 
 # Prints text asking for number of user input
 num = int(input("Enter number of elements : "))
