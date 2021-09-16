@@ -30,4 +30,4 @@ elif choice == 1:
 
 # If neither 0 or 1 is entered, a message is printed
 else:
-    print("Restart program right now and enter 0 or 1!")
+    print("Restart right now and Enter 0 or 1!")
